@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasa Service & Cuci AC | Jakarta</title>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            position: relative;
+            justify-content: space-between; /* Menjaga jarak antara logo dan alamat */
+        }
+        header .logo-container {
+            display: flex;
+            align-items: center;
+        }
+        header img {
+            width: 30px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+            margin-right: 10px; /* Jarak antara logo dan alamat */
+        }
+        header .address {
+            font-size: 14px;
+            margin: 0;
+            line-height: 1.4; /* Jarak baris agar alamat tidak terlalu padat */
+        }
+        header h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        nav a.call-to-action {
+            background-color: #edeff2;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        section.hero {
+            background: url('bg.jpg') no-repeat center center/cover;
+            color: rgb(231, 216, 216);
+            text-align: center;
+            padding: 100px 20px;
+        }
+        section.hero h2 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        section.hero p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        section.hero a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        section.offerings {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        section.offerings h2 {
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+        .offerings-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .offerings-container div {
+            width: 30%;
+            margin-bottom: 20px;
+        }
+        .offerings-container div img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .offerings-container div h3 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+        section.contact {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        section.contact h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        section.contact a {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo-container">
+            <img src="logolokasi.webp" alt="Logo Lokasi">
+            <p class="address">Jl. Sawo V, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13220</p>
+        </div>
+        <h1>Jasa Service & Cuci AC | Jakarta</h1>
+        <nav>
+            <!-- Tambahkan link navigasi -->
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Jasa Profesional Cuci & Service AC</h2>
+        <p>Jasa Service & Cuci AC di Jakarta adalah layanan profesional yang menyediakan perawatan, perbaikan, 
+            dan pembersihan AC untuk memastikan kinerja optimal serta udara yang lebih bersih. Layanan ini meliputi pengecekan, 
+            pencucian, pengisian freon, perbaikan kerusakan, bongkar pasang AC. Kami juga melayani jasa perbaikan Kulkas dan Mesin Cuci.</p><br>
+        <a href="https://wa.me/628129695971">Hubungi Kami di WhatsApp</a> 
+    </section>
+
+   <!-- Offerings Section -->
+<section class="offerings">
+    <h2>Penawaran Utama</h2>
+    <div class="offerings-container">
+        <div>
+            <img src="pasang.jpg" alt="Filter">
+            <h3>Service Ac</h3>
+            <p>Tingkatkan Performa AC Anda dengan Service Rutin. Layanan Service AC kami menjaga AC Anda tetap sejuk dan berfungsi optimal. Kami menawarkan perbaikan, inspeksi menyeluruh, serta perawatan berkala untuk memastikan AC Anda selalu dalam kondisi terbaik dan hemat energi.</p>
+        </div>
+        <div>
+            <img src="cuci2.jpg" alt="Perbaikan">
+            <h3>Cuci Ac</h3>
+            <p>Nikmati Udara Bersih dan Segar dengan Cuci AC Profesional. Layanan Cuci AC kami memastikan debu dan kotoran yang menumpuk di unit AC dibersihkan secara menyeluruh. Dengan AC yang selalu bersih, Anda bisa menikmati udara yang lebih sejuk, segar, dan sehat setiap hari.</p>
+        </div>
+        <div>
+            <img src="pasang2.jpg" alt="Pasang AC">
+            <h3>Bongkar Pasang Ac</h3>
+            <p>Instalasi AC Profesional & Terjamin untuk Kenyamanan Maksimal. Kami menawarkan layanan pemasangan AC dengan teknisi berpengalaman, menjamin instalasi yang akurat dan aman untuk performa terbaik. Solusi ideal untuk memastikan kesejukan dan kenyamanan di rumah atau kantor Anda.</p>
+        </div>
+        <div>
+            <img src="freon.jpg" alt="Isi Freon">
+            <h3>Isi Freon Ac</h3>
+            <p>Dapatkan Udara Lebih Sejuk dan Bersih dengan Isi Freon AC Profesional. Layanan kami memastikan freon di unit AC Anda cukup dan optimal, sehingga udara yang dihasilkan tetap segar dan sistem AC berfungsi dengan baik.</p>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Tunggu Apa Lagi?</h2>
+        
+        <p>Segera jadwalkan layanan AC Anda hari ini dengan langsung hubungi kami.</p> 
+        <p>Tim profesional kami siap melayani Anda dengan cepat dan tepat, kapan saja dan di mana saja!</p><br><br>
+
+        <a href="https://wa.me/62817747237">Hubungi Kami di WhatsApp</a> 
+    </section>
+</body>
+</html>
